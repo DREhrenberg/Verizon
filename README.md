@@ -5,6 +5,10 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Quick summary
+
+Augmented Reality Project.
+Simple initial project uses the local webcam to track an image of the OpenCV chessboard and render a 3D pulsing cube on it. This simple version uses the OpenCV chessboard image which allows the program to calibrate the camera in real time. It then renders the 3D cube on top of the recognized image and scales it based on the distance to the camera and positions it based on the orientation. This project has been developed using C++ and OpenCV and does not rely on other complete SDKs like Vuforia. An enhanced version will allow any image (with sufficient contrast) to be tracked and subsequently allow for occlusion within that image as well.
+
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
