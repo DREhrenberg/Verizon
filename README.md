@@ -16,10 +16,15 @@ Simple initial project uses the local webcam to track an image of the OpenCV che
 
 * Summary of set up
 
-To build the solution, you need to build OpenCV with OpenGL support.  I used Visual Studio 2015 and Windows 7.  Print the following pattern:  http://docs.opencv.org/2.4/_downloads/pattern.png.  It is 9x6 (row/cols), as indicated in the file in_VID5.xml.
+To build the solution, you need to build OpenCV with OpenGL support.  
+Print the following pattern:  http://docs.opencv.org/2.4/_downloads/pattern.png.  
+It is 9x6 (row/cols), as indicated in the file in_VID5.xml.
 
-The solution, checkerboard-cube, contains two projects.  One is for calibration (using the checkerboard).  The other is for AR.  To use the solution, first run the ‘camera_calibration’ project and use the checkerboard to calibrate your camera.  Then, copy camera_data.xml from the ‘camera_calibration’ project’s directory to the ‘checkerboard-3d-rendering’ project's directory.
-I placed the OpenCV project in a directory and set the environment variable OPENCV_DIR as <directory>\install\x64\v14 and added <directory>\install\x64\v14\bin to PATH variable.
+The solution, checkerboard-cube, contains two projects.  
+One is for calibration (using the checkerboard).  The other is for AR.  
+To use the solution, first run the ‘camera_calibration’ project and use the checkerboard to calibrate your camera.  
+Then, copy camera_data.xml from the ‘camera_calibration’ project’s directory to the ‘checkerboard-3d-rendering’ project's directory.
+You can place the OpenCV project in a directory and set the environment variable OPENCV_DIR as <directory>\install\x64\v14 and added <directory>\install\x64\v14\bin to PATH variable.
 
 
 * Configuration
