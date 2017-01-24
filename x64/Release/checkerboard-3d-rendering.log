@@ -1,0 +1,12 @@
+﻿  checkboard-tracker.cpp
+checkboard-tracker.cpp(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+checkboard-tracker.cpp(46): warning C4244: '=': conversion from 'const precision' to 'GLfloat', possible loss of data
+checkboard-tracker.cpp(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+checkboard-tracker.cpp(300): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+checkboard-tracker.cpp(301): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  4 of 175 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  checkerboard-3d-rendering.vcxproj -> C:\Users\PerfectLens1\Documents\Visual Studio 2015\Projects\checkerboard-cube\x64\Release\checkerboard-3d-rendering.exe
